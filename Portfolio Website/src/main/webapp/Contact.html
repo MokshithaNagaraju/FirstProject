@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="contact.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Page</title>
+
+</head>
+<body>
+
+<div class="menu">
+	<ul>
+
+		<li><a href="Home.html" target="_parent">Home</a></li>
+		<li><a href="About.html" target="_parent">About</a></li>
+		<li><a href="Profile.html" target="_parent">Profile</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+
+	</ul>
+</div>	
+
+<h1><i>Contact Me</i></h1>
+
+<p>I'd love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free to reach out.</p>
+
+<p><strong>Email</strong>: mokshithanagaraju50@gmail.com</p>
+<p><strong>Phone</strong>: 9951220585</p>
+<p><strong>Location</strong>: Hydearabad, India</p>
+<p><strong>Social Media</strong>:</p>
+<ul>
+    <li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
+</ul>
+
+<h2>Send a Message</h2>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form>
+
+
+
+<script>
+    function handleSubmit(event) {
+        event.preventDefault();
+        window.location.href = "Submit.html"; 
+    }
+</script>
+
+</body>
+</html>

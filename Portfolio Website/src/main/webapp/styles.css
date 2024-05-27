@@ -1,0 +1,82 @@
+body{
+	background-image:url("file:///C:/Users/Medplus/Pictures/Portfolio/pexels-catiamatos-1072179.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height: 400px;
+	background-attachment: fixed;
+	
+	
+}
+
+.menu ul li{
+	list-style:none;
+	display:inline-block;
+	margin:20px 110px;
+	position:relative;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color:#ffff;
+	text-transform:uppercase;
+	
+}
+
+.menu ul li::after{
+	content:'';
+	height: 3px;
+	width: 0;
+	background :#009688;
+	position: absolute;
+	left:0;
+	top: 20px;
+	transition:0.5s;
+}
+
+.menu ul li:hover::after{
+	width:100%;
+}
+
+.content{
+	color: white;
+	
+	
+}
+
+.content h1{
+	font-size: 70px;
+}
+
+
+.content p{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
